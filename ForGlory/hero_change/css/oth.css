@@ -1,0 +1,25 @@
+#link {
+	margin: 40;
+	display: table-footer-group;
+	width: 1200px;
+	height: auto;
+	float: none;
+	overflow: hidden
+}
+#link div{
+	float: left
+}
+#link div img{
+	display: block;
+	
+}
+#link p{
+	text-align: center;
+	font-size: x-large;
+}
+.navpos{
+	height:60px;
+	background: #000;
+}
+.navpos-header{width:130px;float: left;}
+.navpos-header img{padding-left:100%;}

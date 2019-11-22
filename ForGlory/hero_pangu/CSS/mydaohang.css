@@ -1,0 +1,173 @@
+html{ color:-internal-root-color;}
+body{
+	background:#fff;
+	font-size:14px;
+	line-height:1.5;
+	font-family:"Microsoft YaHei",Tahoma,simsun,sans-serif;
+	}
+div{
+	display:block;
+	}
+/*导航栏*/
+div.daohang{
+	margin:-15px;
+	padding:0;
+	border:#F00;
+	overflow: hidden;
+	zoom:1;
+	background-color: #333;
+	}
+div.daohang ul{
+    list-style-type: none;
+}
+
+div.daohang ul li{
+    float:left;
+	
+}
+
+div.daohang ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 40px 30px;
+    text-decoration: none;
+}
+
+div.daohang ul li a:hover {
+    background-color: #111;
+}
+
+
+div.daohang ul li ul{
+    /* 设置二级菜单 */
+    margin-left: -0.2px;
+    background:rgb(189, 181, 181);
+    position:absolute;
+    display: none; /* 默认隐藏二级菜单的内容 */
+	
+}
+div.daohang ul li ul li{
+    /* 二级菜单li内容的显示 */
+    
+    float:none;
+    text-align: center;
+}
+div.daohang ul li:hover ul{
+    /* 鼠标选中二级菜单内容时 */
+    display: block;
+}
+/*导航栏*/
+
+/*弹窗*/
+button.btnnn{
+	position:absolute;
+	top:850px;
+	left:300px;
+	z-index:999;
+	
+	}
+
+/*封面图片*/
+div.fengmian{
+	margin-top:-1px;
+	margin-left:-10px;
+	width:1600px;
+	height:1080px;
+	background:url(../img/1.jpg);
+	position:relative;
+	}
+/*封面的侧面*/
+div.cemian{
+	height:500px;
+	width:400px;
+	position:absolute;
+	left:250px;
+	top:400px;
+	background-color:#333;
+	opacity:0.7;
+	
+	}
+.story{
+	height:50px;
+	width:250px;
+	margin-left:40px;
+	margin-top:400px;
+
+	padding-left:40px;
+	padding-top:10px;
+	}
+.story button{
+	width:120px;
+	height:40px;
+	font-size:14px;
+	text-align:center;
+	color:#FFF;
+	background:#000;
+	border-color:#FFF;
+	}
+
+/*封面的底面*/
+div.dimian{
+	position:absolute;
+	right:200px;
+	bottom:10px;
+	}
+.pf{
+	display:block;
+	margin-top:5px;
+	float:right;
+	width:25px;
+	height:62px;
+	text-align:center;
+	font-size:16px;
+	background:#f3c258;
+	color:#000;
+	
+	}
+.pful{
+	float:right;
+	width:780px;
+	height:110px;
+	overflow:hidden;
+	
+	}
+.pful li{
+	with:89px;
+	height:88px;
+	float:right;
+	display:inline;
+	cursor:pointer;
+	}
+.pful li i{
+	float:right;
+	width:65px;
+	height:67px;
+	margin-right:25px;
+	border:solid 4px #7a7a7a;
+	overflow:hidden;
+	border-color:#f3c258;}
+.pful li i img{
+	width:67px;
+	height:69px;
+	margin-left:-1px;
+	margin-top:-1px;
+	}
+.pful li i p{
+	font-size:14px;
+	color:#fff;
+	text-align:center;
+	text-shadow:0 1px 2px #000;
+	}
+
+
+
+
+/*封面图片*/
+
+div.title{
+	margin:15px;
+	padding:10px;
+	border:#F00;
+	font-size:25px
+	}
